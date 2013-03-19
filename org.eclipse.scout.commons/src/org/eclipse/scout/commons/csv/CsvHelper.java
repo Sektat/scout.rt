@@ -104,7 +104,7 @@ public class CsvHelper {
       String s = it.next();
       String sLow = (s != null ? s.toLowerCase() : null);
       Format f = null;
-      if (s == null) {
+      if (s == null || sLow == null) {
         f = null;
       }
       else if (sLow.equals("string")) {
