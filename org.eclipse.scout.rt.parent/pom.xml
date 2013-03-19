@@ -49,6 +49,9 @@
     <module>../org.eclipse.scout.rt.extension.client</module>
     <module>../org.eclipse.scout.rt.feature.about</module>
     <module>../org.eclipse.scout.rt-feature</module>
+    <module>../org.eclipse.scout.rt.client-feature</module>
+    <module>../org.eclipse.scout.rt.swing-feature</module>
+    <module>../org.eclipse.scout.rt.swt-feature</module>
   </modules>
 
   <profiles>
@@ -102,6 +105,7 @@
       </activation>
       <modules>
         <module>../org.eclipse.scout.rt-repository</module>
+        <module>../org.eclipse.scout.rt.rap-repository</module>
       </modules>
     </profile>
 

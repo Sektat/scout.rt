@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.scout.rt.rap"
+      id="org.eclipse.scout.rt.client"
       label="%featureName"
       version="3.9.0.qualifier"
       provider-name="%providerName">
@@ -22,49 +22,36 @@
       <discovery label="%updateSiteName" url="http://download.eclipse.org/releases/kepler"/>
    </url>
 
-   <requires>
-      <import feature="org.eclipse.scout.rt.client" version="3.9.0" match="compatible"/>
-      <import feature="org.eclipse.rap.feature" version="2.0.0" match="compatible"/>
-   </requires>
-
    <plugin
-         id="org.eclipse.scout.rt.ui.rap"
+         id="org.eclipse.scout.rt.client"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.scout.rt.ui.rap.workbench"
+         id="org.eclipse.scout.rt.client.mobile"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.scout.svg.ui.rap"
+         id="org.eclipse.scout.rt.extension.client"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.scout.rt.ui.rap.theme.rayo"
+         id="org.eclipse.scout.svg.client"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.scout.rt.ui.rap.theme.rayo.mobile"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.rap.mobile"
+         id="org.eclipse.scout.rt.ui.svg.calendar"
          download-size="0"
          install-size="0"
          version="0.0.0"

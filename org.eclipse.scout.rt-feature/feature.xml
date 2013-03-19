@@ -39,6 +39,9 @@
       <import feature="org.eclipse.platform" version="3.4.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.rcp" version="3.4.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.help" version="1.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.scout.rt.client" version="3.9.0.qualifier"/>
+      <import feature="org.eclipse.scout.rt.swing" version="3.9.0.qualifier"/>
+      <import feature="org.eclipse.scout.rt.swt" version="3.9.0.qualifier"/>
    </requires>
 
    <plugin
@@ -70,20 +73,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.scout.rt.client"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.client.mobile"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.scout.rt.server"
          download-size="0"
          install-size="0"
@@ -92,28 +81,6 @@
 
    <plugin
          id="org.eclipse.scout.rt.shared"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.swing"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.swing.browser.swt.fragment"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.swt"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -153,41 +120,6 @@
          install-size="0"
          version="0.0.0"
          fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.svg.client"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.svg.ui.swing"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.svg.ui.swt"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.svg.calendar"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.extension.client"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
          unpack="false"/>
 
    <plugin

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.scout.rt.rap"
+      id="org.eclipse.scout.rt.swt"
       label="%featureName"
       version="3.9.0.qualifier"
       provider-name="%providerName">
@@ -24,47 +24,17 @@
 
    <requires>
       <import feature="org.eclipse.scout.rt.client" version="3.9.0" match="compatible"/>
-      <import feature="org.eclipse.rap.feature" version="2.0.0" match="compatible"/>
    </requires>
 
    <plugin
-         id="org.eclipse.scout.rt.ui.rap"
+         id="org.eclipse.scout.rt.ui.swt"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.scout.rt.ui.rap.workbench"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.svg.ui.rap"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.rap.theme.rayo"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.rap.theme.rayo.mobile"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.scout.rt.ui.rap.mobile"
+         id="org.eclipse.scout.svg.ui.swt"
          download-size="0"
          install-size="0"
          version="0.0.0"
